@@ -1,0 +1,55 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Rappelz API For Uranus Server 2018.",
+  "author": "Amir Dark <amir_h_dark@mail.ru|fb.com/AmirDarkLord> & Mayar Omer <>",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www --exec babel-node"
+  },
+  "apidoc": {
+    "title": "API Document",
+    "url": "https://example.com"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Uranus",
+    "Server",
+    "Rappelz",
+    "API"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-validation": "^1.0.2",
+    "helmet": "^3.12.0",
+    "joi": "^13.1.2",
+    "js-md5": "^0.7.3",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0",
+    "portscanner": "^2.1.1",
+    "sequelize": "^4.37.4",
+    "tedious": "^2.3.1",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.1"
+  }
+}
